@@ -9,7 +9,7 @@ public class Pizza {
     public Pizza(Boolean isVeg){
         // your code goes here
         this.isVeg = isVeg;
-        if(isVeg) {
+        if(this.isVeg) {
             this.price = 300;
         }else{
             this.price = 400;
